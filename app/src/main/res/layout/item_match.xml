@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+    <TextView
+        android:id="@+id/homeTeamName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".30"
+        android:gravity="center"
+        android:paddingLeft="@dimen/result_margin"
+        android:paddingRight="@dimen/result_margin"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/teamName"
+        android:textStyle="bold"
+        tools:text="CD Leganes" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight=".40"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".40"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textSize="@dimen/result"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".20"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textSize="@dimen/result"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".40"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textSize="@dimen/result"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="20-05-2017 20:00"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"
+            />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/awayTeamName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".30"
+        android:gravity="center"
+        android:paddingLeft="@dimen/result_margin"
+        android:paddingRight="@dimen/result_margin"
+        android:text="Alaves"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/teamName"
+        android:textStyle="bold"
+        tools:text="Alaves" />
+
+</LinearLayout>

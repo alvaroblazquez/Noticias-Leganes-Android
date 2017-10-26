@@ -1,0 +1,4 @@
+#Wed Oct 25 19:18:25 CEST 2017
+base.0=/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/transforms/dexMerger/debug/2
+renamed.0=classes.dex
+file.0=/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/transforms/dexMerger/debug/2/classes.dex

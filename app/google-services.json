@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "9742600150",
+    "firebase_url": "https://noticias-leganes.firebaseio.com",
+    "project_id": "noticias-leganes",
+    "storage_bucket": "noticias-leganes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9742600150:android:7d8505daf39a8614",
+        "android_client_info": {
+          "package_name": "nuralsmart.noticias.leganes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9742600150-2fcj73303sfiebhng2qm9n74848agn5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPIvtTIkjwFXOf0TEMe9jIic0E2H1hRHc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

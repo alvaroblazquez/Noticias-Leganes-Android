@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">9742600150-2fcj73303sfiebhng2qm9n74848agn5m.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://noticias-leganes.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">9742600150</string>
+    <string name="google_api_key" translatable="false">AIzaSyBPIvtTIkjwFXOf0TEMe9jIic0E2H1hRHc</string>
+    <string name="google_app_id" translatable="false">1:9742600150:android:7d8505daf39a8614</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBPIvtTIkjwFXOf0TEMe9jIic0E2H1hRHc</string>
+    <string name="google_storage_bucket" translatable="false">noticias-leganes.appspot.com</string>
+</resources>
