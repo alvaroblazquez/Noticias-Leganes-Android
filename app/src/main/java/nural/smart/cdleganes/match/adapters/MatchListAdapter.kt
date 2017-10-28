@@ -12,6 +12,7 @@ import android.widget.TextView
 import nural.smart.cdleganes.R
 import nural.smart.cdleganes.match.Match
 import nural.smart.cdleganes.match.MatchList
+import nural.smart.cdleganes.match.Status
 import org.jetbrains.anko.find
 
 class MatchListAdapter(val matchList: MatchList)
@@ -32,10 +33,21 @@ class MatchListAdapter(val matchList: MatchList)
     class ViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
         private val homeTeamName = view.find<TextView>(R.id.homeTeamName)
         private val awayTeamName = view.find<TextView>(R.id.awayTeamName)
+        private val goalsHomeTeam = view.find<TextView>(R.id.goalsHomeTeam)
+        private val goalsAwayTeam = view.find<TextView>(R.id.goalsAwayTeam)
+        private val dateMatch = view.find<TextView>(R.id.dateMatch)
 
         fun bindMatch(match: Match) {
-                homeTeamName.text = match.homeTeamName
-                awayTeamName.text = match.awayTeamName
+            homeTeamName.text = match.homeTeamName
+            awayTeamName.text = match.awayTeamName
+            if (match.status == Status.FINISHED) {
+                goalsHomeTeam.text = match.result.goalsHomeTeam.toString()
+                goalsAwayTeam.text = match.result.goalsAwayTeam.toString()
+            } else {
+                goalsHomeTeam.text = ""
+                goalsAwayTeam.text = ""
+            }
+            dateMatch.text = match.dateFormatted
         }
     }
 }

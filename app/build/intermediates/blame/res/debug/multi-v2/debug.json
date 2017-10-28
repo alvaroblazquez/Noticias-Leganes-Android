@@ -62,22 +62,6 @@
             ]
         },
         {
-            "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/res/merged/debug/values-v25_values-v25.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/299bb7e72643ed47d3617d313f338b36/res/values-v25/values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat",
             "map": [
                 {
@@ -112,6 +96,22 @@
                         "startOffsets": "2131",
                         "endColumns": "290",
                         "endOffsets": "2417"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/res/merged/debug/values-v25_values-v25.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/299bb7e72643ed47d3617d313f338b36/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
                     }
                 }
             ]
@@ -286,40 +286,6 @@
             ]
         },
         {
-            "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/299bb7e72643ed47d3617d313f338b36/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    }
-                },
-                {
-                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/4a227b11c0a400d86d70eb4ea7e606f9/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
-                        "endLines": "2,3,4,5,6,7,8,9,10,14",
-                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
-                    },
-                    "to": {
-                        "startLines": "10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "611,671,741,812,884,942,1000,1106,1170,1233",
-                        "endLines": "10,11,12,13,14,15,16,17,18,22",
-                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "666,736,807,879,937,995,1101,1165,1228,1410"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat",
             "map": [
                 {
@@ -354,6 +320,40 @@
                         "startOffsets": "2098",
                         "endColumns": "268",
                         "endOffsets": "2362"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/299bb7e72643ed47d3617d313f338b36/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/4a227b11c0a400d86d70eb4ea7e606f9/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
+                        "endLines": "2,3,4,5,6,7,8,9,10,14",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1106,1170,1233",
+                        "endLines": "10,11,12,13,14,15,16,17,18,22",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "666,736,807,879,937,995,1101,1165,1228,1410"
                     }
                 }
             ]
@@ -436,28 +436,6 @@
             ]
         },
         {
-            "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/531ea5cd904e262577b43e4d40b59069/res/values-km/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "343",
-                        "endColumns": "246",
-                        "endOffsets": "585"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "246",
-                        "endOffsets": "347"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat",
             "map": [
                 {
@@ -475,6 +453,28 @@
                         "startOffsets": "105",
                         "endColumns": "251",
                         "endOffsets": "352"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/531ea5cd904e262577b43e4d40b59069/res/values-km/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "246",
+                        "endOffsets": "585"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "246",
+                        "endOffsets": "347"
                     }
                 }
             ]

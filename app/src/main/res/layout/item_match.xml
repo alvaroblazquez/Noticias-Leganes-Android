@@ -18,8 +18,7 @@
         android:paddingRight="@dimen/result_margin"
         android:textColor="@android:color/black"
         android:textSize="@dimen/teamName"
-        android:textStyle="bold"
-        tools:text="CD Leganes" />
+        android:textStyle="bold" />
 
     <RelativeLayout
         android:layout_width="0dp"
@@ -37,10 +36,10 @@
             android:layout_alignParentTop="true">
 
             <TextView
+                android:id="@+id/goalsHomeTeam"
                 android:layout_width="0dp"
                 android:layout_weight=".40"
                 android:layout_height="match_parent"
-                android:text="1"
                 android:textColor="@android:color/white"
                 android:gravity="center"
                 android:textSize="@dimen/result"
@@ -57,10 +56,10 @@
                 android:textStyle="bold"/>
 
             <TextView
+                android:id="@+id/goalsAwayTeam"
                 android:layout_width="0dp"
                 android:layout_weight=".40"
                 android:layout_height="match_parent"
-                android:text="0"
                 android:textColor="@android:color/white"
                 android:gravity="center"
                 android:textSize="@dimen/result"
@@ -69,6 +68,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/dateMatch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
@@ -90,10 +90,8 @@
         android:gravity="center"
         android:paddingLeft="@dimen/result_margin"
         android:paddingRight="@dimen/result_margin"
-        android:text="Alaves"
         android:textColor="@android:color/black"
         android:textSize="@dimen/teamName"
-        android:textStyle="bold"
-        tools:text="Alaves" />
+        android:textStyle="bold" />
 
 </LinearLayout>

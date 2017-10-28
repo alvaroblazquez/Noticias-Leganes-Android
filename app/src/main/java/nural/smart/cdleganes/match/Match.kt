@@ -1,11 +1,13 @@
 package nural.smart.cdleganes.match
 
+import java.text.SimpleDateFormat
+
 /**
  * Created by alvaro on 13/10/17.
  */
 
 enum class Status {
-    OPENED, FINISHED
+    OPENED, FINISHED, TIMED, SCHEDULED
 }
 
 enum class Winner {
@@ -15,11 +17,20 @@ enum class Winner {
 
 data class Match(
         val date          : String?,
-        val status        : Status?,
+        val status        : Status = Status.OPENED,
         val homeTeamName  : String = "",
         val awayTeamName  : String = "",
-        val result        : Result?
-    )
+        val result        : Result = Result(0, 0)
+    ) {
+    var dateFormatted: String = ""
+        get() {
+            var dateFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'")
+            val dateMatch = dateFormat.parse(this.date)
+
+            dateFormat = SimpleDateFormat("dd/MM/yyyy HH:mm")
+            return dateFormat.format(dateMatch)
+        }
+}
 
 data class MatchList(val fixtures: List<Match>)
 
