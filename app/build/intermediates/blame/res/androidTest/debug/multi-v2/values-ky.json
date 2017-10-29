@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ky/values-ky.xml",
+            "map": [
+                {
+                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/f53848cb111ee6cd382965972f66fcd5/res/values-ky/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "251",
+                        "endOffsets": "590"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "251",
+                        "endOffsets": "352"
+                    }
+                }
+            ]
+        }
+    ]
+}
