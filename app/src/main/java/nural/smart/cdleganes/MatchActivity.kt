@@ -19,9 +19,9 @@ import org.jetbrains.anko.uiThread
 
 class MatchActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener {
 
-    lateinit var swipeView: SwipeRefreshLayout
-    lateinit var progressBar: ProgressBar
-    lateinit var matchList: RecyclerView
+    private lateinit var swipeView: SwipeRefreshLayout
+    private lateinit var progressBar: ProgressBar
+    private lateinit var matchList: RecyclerView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,9 +41,9 @@ class MatchActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener 
 
     }
 
-    fun loadData() {
+    private fun loadData() {
 
-        doAsync() {
+        doAsync {
             val result = RequestMatchCommand().execute()
             uiThread {
                 matchList.adapter = MatchListAdapter(result)

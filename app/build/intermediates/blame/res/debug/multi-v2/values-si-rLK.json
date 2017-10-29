@@ -4,7 +4,7 @@
             "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si-rLK/values-si-rLK.xml",
             "map": [
                 {
-                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/299bb7e72643ed47d3617d313f338b36/res/values-si-rLK/values-si-rLK.xml",
+                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/63f9eff1edad398c5f7ea2a9a5128a1d/res/values-si-rLK/values-si-rLK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

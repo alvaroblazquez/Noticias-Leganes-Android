@@ -1,6 +1,7 @@
 package nural.smart.cdleganes.match
 
 import java.text.SimpleDateFormat
+import java.util.*
 
 /**
  * Created by alvaro on 13/10/17.
@@ -25,6 +26,7 @@ data class Match(
     var dateFormatted: String = ""
         get() {
             var dateFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'")
+            dateFormat.timeZone = TimeZone.getTimeZone("Etc/GMT")
             val dateMatch = dateFormat.parse(this.date)
 
             dateFormat = SimpleDateFormat("dd/MM/yyyy HH:mm")

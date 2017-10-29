@@ -4,7 +4,7 @@
             "outputFile": "/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/299bb7e72643ed47d3617d313f338b36/res/values-v11/values-v11.xml",
+                    "source": "/Users/alvaro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/63f9eff1edad398c5f7ea2a9a5128a1d/res/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,43,47,48,52,56,57,61,66,71,76,78,80,81,82,136,191",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
