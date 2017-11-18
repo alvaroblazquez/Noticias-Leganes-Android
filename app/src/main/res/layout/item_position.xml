@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".10"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/teamName"
+        android:textStyle="bold"
+        android:text="1"/>
+
+    <TextView
+        android:id="@+id/teamName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".40"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/teamName"
+        android:text="Club Atlético de Madrid"/>
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".10"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/teamName"
+        android:textStyle="bold"
+        android:text="100"/>
+
+    <TextView
+        android:id="@+id/playedGames"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".10"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/teamName"
+        android:text="100"/>
+
+    <TextView
+        android:id="@+id/wins"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".10"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/teamName"
+        android:text="100"/>
+
+    <TextView
+        android:id="@+id/draws"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".10"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/teamName"
+        android:text="100"/>
+
+    <TextView
+        android:id="@+id/losses"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".10"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/teamName"
+        android:text="100"/>
+
+
+
+</LinearLayout>

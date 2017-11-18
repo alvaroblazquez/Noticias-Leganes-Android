@@ -2,42 +2,68 @@
 <instant-run
     abi="x86"
     api-level="23"
-    build-mode="COLD"
+    build-mode="FULL"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0"
-    timestamp="1509279281632"
+    timestamp="1511005478116"
     token="4979623803556399042"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="2537" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="27" />
+        duration="299" />
     <task
         name="verifier"
-        duration="3" />
+        duration="96" />
 
+    <artifact
+        location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
+        location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/outputs/apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
+    <artifact
+        location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1509277366342"
+        timestamp="1511005478116"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
@@ -45,22 +71,13 @@
             location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -69,29 +86,20 @@
             location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1509279174634"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1509279281632"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

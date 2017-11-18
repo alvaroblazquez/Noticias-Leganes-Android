@@ -12,3 +12,5 @@ data class Position (
             val draws       : Int,
             val losses      : Int
 )
+
+data class PositionList(val standing: List<Position>)
