@@ -18,7 +18,7 @@ enum class Status {
 
 
 data class Match(
-        private val date          : String?,
+        private val date  : String?,
         val status        : Status = Status.OPENED,
         val homeTeamName  : String = "",
         val awayTeamName  : String = "",
@@ -28,7 +28,7 @@ data class Match(
         get() {
             val dateFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.getDefault())
 
-            dateFormat.timeZone = TimeZone.getTimeZone("Etc/GMT")
+            dateFormat.timeZone = TimeZone.getTimeZone("Etc/GMT-1")
             val dateMatch = dateFormat.parse(this.date)
 
             return DateFormat.
