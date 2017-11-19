@@ -17,16 +17,13 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 
 public class MainActivity  extends AppCompatActivity {
 
-    private final String scheduleURL = "http://resultados.as.com/resultados/ficha/equipo/leganes/132/calendario/";
-    private final String tableURL = "http://resultados.as.com/resultados/futbol/primera/clasificacion/";
-
     private final String idListFragment = "LIST";
     private final String idScheduleFragment = "SCHEDULE";
     private final String idTableFragment = "TABLE";
 
     private Fragment listFragment = ListFragment.newInstance();
-    private Fragment scheduleFragment = WebViewFragment.newInstance(scheduleURL);
-    private Fragment tableFragment = WebViewFragment.newInstance(tableURL);
+    private Fragment scheduleFragment = MatchFragment.Companion.newInstance();
+    private Fragment tableFragment = PositionFragment.Companion.newInstance();
 
     private FirebaseAnalytics mFirebaseAnalytics;
 

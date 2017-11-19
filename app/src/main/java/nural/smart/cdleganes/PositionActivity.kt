@@ -1,11 +1,13 @@
 package nural.smart.cdleganes
 
 import android.os.Bundle
+import android.support.v4.app.Fragment
 import android.support.v4.widget.SwipeRefreshLayout
-import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.ProgressBar
 import nural.smart.cdleganes.position.adapters.PositionListAdapter
 import nural.smart.cdleganes.position.commands.RequestPositionCommand
@@ -16,28 +18,34 @@ import org.jetbrains.anko.uiThread
 /**
  * Created by alvaro on 18/11/17.
  */
-class PositionActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener {
+class PositionFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener {
 
     private lateinit var swipeView: SwipeRefreshLayout
     private lateinit var progressBar: ProgressBar
     private lateinit var positionList: RecyclerView
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_position)
+    companion object {
+        fun newInstance(): PositionFragment {
+            return PositionFragment()
+        }
+    }
 
-        swipeView   = find(R.id.swipePosition)
-        progressBar = find(R.id.progressBarPosition)
-        positionList   = find(R.id.listPosition)
-        positionList.layoutManager = LinearLayoutManager(this)
+    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
+                              savedInstanceState:Bundle?):View? {
+        val view = inflater!!.inflate(R.layout.activity_position, container, false)
+
+        swipeView   = view.find(R.id.swipePosition)
+        progressBar = view.find(R.id.progressBarPosition)
+        positionList   = view.find(R.id.listPosition)
+        positionList.layoutManager = LinearLayoutManager(this.context)
 
 
         swipeView.setOnRefreshListener(this)
 
         loadData()
 
-
+        return view
     }
 
     private fun loadData() {

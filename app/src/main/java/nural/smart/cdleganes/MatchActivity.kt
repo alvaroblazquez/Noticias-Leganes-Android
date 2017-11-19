@@ -1,11 +1,14 @@
 package nural.smart.cdleganes
 
+
 import android.os.Bundle
+import android.support.v4.app.Fragment
 import android.support.v4.widget.SwipeRefreshLayout
-import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.ProgressBar
 import nural.smart.cdleganes.match.adapters.MatchListAdapter
 import nural.smart.cdleganes.match.commands.RequestMatchCommand
@@ -17,28 +20,33 @@ import org.jetbrains.anko.uiThread
 * Created by alvaro on 22/10/17.
 */
 
-class MatchActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener {
+class MatchFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener {
 
     private lateinit var swipeView: SwipeRefreshLayout
     private lateinit var progressBar: ProgressBar
     private lateinit var matchList: RecyclerView
 
+    companion object {
+        fun newInstance(): MatchFragment {
+            return MatchFragment()
+        }
+    }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_match)
+    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
+                                     savedInstanceState:Bundle?):View? {
+        val view = inflater!!.inflate(R.layout.activity_match, container, false)
 
-        swipeView   = find(R.id.swipeMatch)
-        progressBar = find(R.id.progressBarMatch)
-        matchList   = find(R.id.listMatch)
-        matchList.layoutManager = LinearLayoutManager(this)
+        swipeView   = view.find(R.id.swipeMatch)
+        progressBar = view.find(R.id.progressBarMatch)
+        matchList   = view.find(R.id.listMatch)
+        matchList.layoutManager = LinearLayoutManager(this.context)
 
 
         swipeView.setOnRefreshListener(this)
 
         loadData()
 
-
+        return view
     }
 
     private fun loadData() {
