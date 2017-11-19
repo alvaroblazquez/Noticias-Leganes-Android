@@ -8,7 +8,7 @@ public class AsParser extends XMLParser {
 
     public AsParser() {
         super();
-        super.url = "http://masdeporte.as.com/tag/rss/cd_leganes/a";
+        super.url = "https://masdeporte.as.com/tag/rss/cd_leganes/a";
         super.origen = "AS";
     }
 }

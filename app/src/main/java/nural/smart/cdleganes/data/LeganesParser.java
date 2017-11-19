@@ -8,7 +8,7 @@ public class LeganesParser extends XMLParser {
 
     public LeganesParser() {
         super();
-        super.url = "http://www.deportivoleganes.com/rss";
+        super.url = "https://www.deportivoleganes.com/rss";
         super.origen = "Oficial Leganés";
     }
 
