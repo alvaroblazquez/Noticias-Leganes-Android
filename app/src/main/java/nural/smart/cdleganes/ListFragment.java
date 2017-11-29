@@ -22,6 +22,8 @@ import android.widget.ListView;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import nural.smart.cdleganes.adapter.EntryAdapter;
@@ -148,7 +150,15 @@ public class ListFragment extends Fragment {
                     Intent detailIntent = new Intent(getContext(), EntryDetailActivity.class);
 
                     detailIntent.putExtra("title", selectedRecipe.title);
+                    detailIntent.putExtra("description", selectedRecipe.description);
+                    SimpleDateFormat formateador = new SimpleDateFormat(
+                            "EEEE, dd MMMM yyyy");
+                    Date fechaDate = new Date();
+                    String date = formateador.format(fechaDate);
+                    detailIntent.putExtra("date", date);
                     detailIntent.putExtra("url", selectedRecipe.link);
+                    detailIntent.putExtra("image", selectedRecipe.imageURL);
+                    detailIntent.putExtra("origen", selectedRecipe.origen);
 
                     startActivityForResult(detailIntent, 0);
 

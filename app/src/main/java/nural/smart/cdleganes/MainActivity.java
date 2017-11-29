@@ -9,7 +9,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.crashlytics.android.answers.Answers;
+import com.crashlytics.android.Crashlytics;
 import com.google.firebase.analytics.FirebaseAnalytics;
+
+import io.fabric.sdk.android.Fabric;
 
 /**
  * Created by alvaro on 27/3/17.
@@ -36,6 +40,8 @@ public class MainActivity  extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Fabric.with(this, new Answers());
+        Fabric.with(this, new Crashlytics());
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
@@ -43,7 +49,6 @@ public class MainActivity  extends AppCompatActivity {
         getSupportActionBar().setTitle("Noticias " + getResources().getString(R.string.name));
 
         myToolbar.setTitleTextColor(getResources().getColor(R.color.colorName));
-
 
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView)

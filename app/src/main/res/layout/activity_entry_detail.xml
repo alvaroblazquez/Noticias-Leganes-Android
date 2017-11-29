@@ -8,31 +8,50 @@
     tools:context="nural.smart.cdleganes.EntryDetailActivity">
 
     <ImageView
+        android:id="@+id/imageEntryDetail"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".35"/>
 
     <TextView
+        android:id="@+id/titleEntryDetail"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".15"
-        android:text="dfadsfasfsadfsdfsfafdsafsdfafdsf"/>
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="@dimen/teamName"
+        android:textStyle="bold"
+        android:text="dfadsfasfsadfsdfsfafdsafsdfafdsf" />
 
     <TextView
+        android:id="@+id/dateEntryDetail"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".05"
-        android:text="lunes, 20 noviembre 2017hgjjh"/>
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textStyle="italic"
+        android:gravity="right"/>
 
     <TextView
+        android:id="@+id/descriptionEntryDetail"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".33"
-        android:text="lunes, 20 noviembre 2017"/>
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/description"/>
 
     <Button
+        android:id="@+id/buttonEntryDetail"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight=".12" />
+        android:layout_weight=".12"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/description"/>
 
 </LinearLayout>

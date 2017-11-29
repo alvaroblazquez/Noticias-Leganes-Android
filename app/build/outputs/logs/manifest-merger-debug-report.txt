@@ -1,13 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-68:12
+ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-61:12
 MERGED from [com.android.support:design:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/3a08a794f7ff44ec51f9fe7df61b8cd9/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/63f9eff1edad398c5f7ea2a9a5128a1d/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/039671cc7d38d2408e157eac8599a9bc/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.firebase:firebase-core:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.1.aar/2b2abe6c30b6e87188c3b27b445eb8a7/AndroidManifest.xml:2:1-6:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:2:1-19:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/fb7862745893357688b10674a5219578/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ff7745e178a1c4af40f1398d57e9cd06/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/b627662e352b45d8a1e34e89fd1f71c9/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/288bb066fbecd6eeca93170d153f87a6/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:transition:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/01bd9c82c2f94ebdf256f40b21dbbfac/AndroidManifest.xml:17:1-28:12
@@ -23,20 +26,22 @@ MERGED from [com.android.support:support-core-ui:25.4.0] /Users/alvaro/.gradle/c
 MERGED from [com.android.support:support-media-compat:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/6d063b82a32449b5e0dec5a3953b13b2/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/29da688bfc271070eae0cd46b2e9eacd/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b65f3384bd85ef581600e72c8ffa2397/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-68:12
-INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-68:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/808bdef79fed18795fd3da6f583c1aef/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/1805a1dfced2b36ff83ce1064e874e1a/AndroidManifest.xml:22:1-33:12
+INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-61:12
 	package
 		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-68:12
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-61:12
 		INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-68:12
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:1-61:12
 		INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:2:11-69
@@ -60,16 +65,26 @@ MERGED from [com.google.firebase:firebase-iid:9.6.1] /Users/alvaro/.gradle/cache
 		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.INTERNET
 ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/fb7862745893357688b10674a5219578/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/fb7862745893357688b10674a5219578/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ff7745e178a1c4af40f1398d57e9cd06/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ff7745e178a1c4af40f1398d57e9cd06/AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.1.aar/46a45f60375e8604dff9d812d548c80f/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.1.aar/46a45f60375e8604dff9d812d548c80f/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.1.aar/b654bb8fadc82dc97be39f75d13d51e8/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.1.aar/b654bb8fadc82dc97be39f75d13d51e8/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.1.aar/c999408f7d322eea9e289155727f98cf/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-iid:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.1.aar/c999408f7d322eea9e289155727f98cf/AndroidManifest.xml:20:5-66
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/808bdef79fed18795fd3da6f583c1aef/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/808bdef79fed18795fd3da6f583c1aef/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/1805a1dfced2b36ff83ce1064e874e1a/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/1805a1dfced2b36ff83ce1064e874e1a/AndroidManifest.xml:29:5-67
 	android:name
 		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:8:22-64
 application
-ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:10:5-66:19
+ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:10:5-59:19
 MERGED from [com.android.support:design:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/3a08a794f7ff44ec51f9fe7df61b8cd9/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/3a08a794f7ff44ec51f9fe7df61b8cd9/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/63f9eff1edad398c5f7ea2a9a5128a1d/AndroidManifest.xml:25:5-29:19
@@ -78,6 +93,12 @@ MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/alvaro/.gradle/c
 MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/039671cc7d38d2408e157eac8599a9bc/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.firebase:firebase-core:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.1.aar/2b2abe6c30b6e87188c3b27b445eb8a7/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.1.aar/2b2abe6c30b6e87188c3b27b445eb8a7/AndroidManifest.xml:5:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/fb7862745893357688b10674a5219578/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/fb7862745893357688b10674a5219578/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ff7745e178a1c4af40f1398d57e9cd06/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ff7745e178a1c4af40f1398d57e9cd06/AndroidManifest.xml:11:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/b627662e352b45d8a1e34e89fd1f71c9/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/b627662e352b45d8a1e34e89fd1f71c9/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/288bb066fbecd6eeca93170d153f87a6/AndroidManifest.xml:22:5-26:19
@@ -108,6 +129,10 @@ MERGED from [com.android.support:support-core-utils:25.4.0] /Users/alvaro/.gradl
 MERGED from [com.android.support:support-core-utils:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/29da688bfc271070eae0cd46b2e9eacd/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b65f3384bd85ef581600e72c8ffa2397/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b65f3384bd85ef581600e72c8ffa2397/AndroidManifest.xml:25:5-29:19
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/808bdef79fed18795fd3da6f583c1aef/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/808bdef79fed18795fd3da6f583c1aef/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/1805a1dfced2b36ff83ce1064e874e1a/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/1805a1dfced2b36ff83ce1064e874e1a/AndroidManifest.xml:31:5-20
 	android:supportsRtl
 		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
@@ -136,52 +161,42 @@ ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/mai
 		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:27:13-56
 	android:name
 		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:25:13-41
-activity#nural.smart.cdleganes.MatchActivity
-ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:32:9-36:20
+activity#nural.smart.cdleganes.EntryDetailActivity
+ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:32:9-42:20
+	android:parentActivityName
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:35:13-55
 	android:label
 		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:34:13-45
-	android:launchMode
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:33:13-42
-activity#nural.smart.cdleganes.PositionActivity
-ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:38:9-42:20
-	android:label
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:40:13-45
-	android:launchMode
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:41:13-43
-	android:name
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:39:13-45
-activity#nural.smart.cdleganes.EntryDetailActivity
-ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:44:9-54:20
-	android:parentActivityName
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:47:13-55
-	android:label
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:46:13-45
-	android:name
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:45:13-48
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:33:13-48
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:50:13-52:49
+ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:38:13-40:49
 	android:value
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:52:17-46
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:40:17-46
 	android:name
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:51:17-63
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:39:17-63
 activity#nural.smart.cdleganes.SplashActivity
-ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:56:9-64:20
+ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:44:9-52:20
 	android:theme
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:58:13-47
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:46:13-47
 	android:name
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:57:13-43
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:45:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:59:13-63:29
+ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:47:13-51:29
 action#android.intent.action.MAIN
-ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:60:17-69
+ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:60:25-66
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:62:17-77
+ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:62:27-74
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:50:27-74
+meta-data#io.fabric.ApiKey
+ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:54:9-57:15
+	android:value
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:56:13-69
+	android:name
+		ADDED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml:55:13-44
 uses-sdk
 INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml
@@ -194,6 +209,12 @@ MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/alvaro/.gradle/c
 MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/039671cc7d38d2408e157eac8599a9bc/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-core:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.1.aar/2b2abe6c30b6e87188c3b27b445eb8a7/AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-core:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.1.aar/2b2abe6c30b6e87188c3b27b445eb8a7/AndroidManifest.xml:4:5-42
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/fb7862745893357688b10674a5219578/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.5.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.5.0.aar/fb7862745893357688b10674a5219578/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ff7745e178a1c4af40f1398d57e9cd06/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ff7745e178a1c4af40f1398d57e9cd06/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/b627662e352b45d8a1e34e89fd1f71c9/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/b627662e352b45d8a1e34e89fd1f71c9/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/288bb066fbecd6eeca93170d153f87a6/AndroidManifest.xml:20:5-43
@@ -224,6 +245,10 @@ MERGED from [com.android.support:support-core-utils:25.4.0] /Users/alvaro/.gradl
 MERGED from [com.android.support:support-core-utils:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/29da688bfc271070eae0cd46b2e9eacd/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b65f3384bd85ef581600e72c8ffa2397/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b65f3384bd85ef581600e72c8ffa2397/AndroidManifest.xml:21:5-23:58
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/808bdef79fed18795fd3da6f583c1aef/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/808bdef79fed18795fd3da6f583c1aef/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/1805a1dfced2b36ff83ce1064e874e1a/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/1805a1dfced2b36ff83ce1064e874e1a/AndroidManifest.xml:27:5-43
 INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml
 INJECTED from /Users/alvaro/Documents/NoticiasEquipos/Android/CDLeganes/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
@@ -264,6 +289,16 @@ MERGED from [com.android.support:support-compat:25.4.0] /Users/alvaro/.gradle/ca
 		ADDED from [com.android.support:design:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/3a08a794f7ff44ec51f9fe7df61b8cd9/AndroidManifest.xml:28:13-35
 	android:name
 		ADDED from [com.android.support:design:25.4.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/3a08a794f7ff44ec51f9fe7df61b8cd9/AndroidManifest.xml:27:13-51
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.8.0] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/crashlytics-2.8.0.aar/0f9196d071cf9e9a3efc5d7517bd550a/AndroidManifest.xml:13:13-75
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-analytics:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.1.aar/46a45f60375e8604dff9d812d548c80f/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.1] /Users/alvaro/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.1.aar/b654bb8fadc82dc97be39f75d13d51e8/AndroidManifest.xml:22:5-67

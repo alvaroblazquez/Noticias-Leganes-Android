@@ -16,19 +16,19 @@ public final class R {
         public static final int adjust_height = 0x7f080019;
         public static final int adjust_width = 0x7f08001a;
         public static final int auto = 0x7f08001e;
-        public static final int center = 0x7f080025;
-        public static final int none = 0x7f080069;
-        public static final int normal = 0x7f08006a;
-        public static final int radio = 0x7f08007a;
-        public static final int text = 0x7f0800ac;
-        public static final int text2 = 0x7f0800ad;
-        public static final int wrap_content = 0x7f0800c2;
+        public static final int center = 0x7f080026;
+        public static final int none = 0x7f08006c;
+        public static final int normal = 0x7f08006d;
+        public static final int radio = 0x7f08007c;
+        public static final int text = 0x7f0800ae;
+        public static final int text2 = 0x7f0800af;
+        public static final int wrap_content = 0x7f0800c5;
     }
     public static final class integer {
         public static final int google_play_services_version = 0x7f090006;
     }
     public static final class string {
-        public static final int common_google_play_services_unknown_issue = 0x7f0d0024;
+        public static final int common_google_play_services_unknown_issue = 0x7f0d0025;
     }
     public static final class styleable {
         public static final int[] LoadingImageView = { 0x7f030047, 0x7f03008f, 0x7f030090 };
