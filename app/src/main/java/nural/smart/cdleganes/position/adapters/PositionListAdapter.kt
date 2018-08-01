@@ -7,13 +7,13 @@ import android.view.ViewGroup
 import android.widget.TextView
 import nural.smart.cdleganes.R
 import nural.smart.cdleganes.position.Position
-import nural.smart.cdleganes.position.PositionList
+import nural.smart.cdleganes.position.Table
 import org.jetbrains.anko.find
 
 /**
  * Created by alvaro on 18/11/17.
  */
-class PositionListAdapter(val positionList: PositionList)
+class PositionListAdapter(private val positionList: Table)
     : RecyclerView.Adapter<PositionListAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -23,10 +23,10 @@ class PositionListAdapter(val positionList: PositionList)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bindMatch(positionList.standing[position])
+        holder.bindMatch(positionList.table[position])
     }
 
-    override fun getItemCount(): Int = positionList.standing.size
+    override fun getItemCount(): Int = positionList.table.size
 
     class ViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
         private val position = view.find<TextView>(R.id.position)
@@ -39,7 +39,7 @@ class PositionListAdapter(val positionList: PositionList)
 
         fun bindMatch(positionModel: Position) {
             position.text = positionModel.position.toString()
-            teamName.text = positionModel.teamName
+            teamName.text = positionModel.team.name
             points.text = positionModel.points.toString()
             playedGames.text = positionModel.playedGames.toString()
             wins.text = positionModel.wins.toString()

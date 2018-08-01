@@ -1,5 +1,6 @@
 package nural.smart.cdleganes.match
 
+import com.google.gson.annotations.SerializedName
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
@@ -18,11 +19,12 @@ enum class Status {
 
 
 data class Match(
+        @SerializedName("utcDate")
         private val date  : String?,
         val status        : Status = Status.OPENED,
-        val homeTeamName  : String = "",
-        val awayTeamName  : String = "",
-        val result        : Result = Result(0, 0)
+        val homeTeam  : Team,
+        val awayTeam  : Team,
+        val score        : Score
     ) {
     var dateFormatted: String = ""
         get() {
@@ -37,9 +39,27 @@ data class Match(
         }
 }
 
-data class MatchList(val fixtures: List<Match>)
+data class MatchList(
+        @SerializedName("matches")
+        val fixtures: List<Match>
+)
 
-data class Result(val goalsHomeTeam : Int, val goalsAwayTeam: Int) {
+data class Team(
+        val name: String = ""
+)
+
+data class Score (
+        @SerializedName("fullTime")
+        val result        : Result
+
+)
+
+
+
+data class Result(@SerializedName("homeTeam")
+                    val goalsHomeTeam : Int,
+                  @SerializedName("awayTeam")
+                  val goalsAwayTeam: Int) {
     /*var winner: Winner = Winner.AWAY
         get() {
             if (this.goalsHomeTeam == this.goalsAwayTeam) {

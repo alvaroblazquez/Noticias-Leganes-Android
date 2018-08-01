@@ -38,11 +38,11 @@ class MatchListAdapter(val matchList: MatchList)
         private val dateMatch = view.find<TextView>(R.id.dateMatch)
 
         fun bindMatch(match: Match) {
-            homeTeamName.text = match.homeTeamName
-            awayTeamName.text = match.awayTeamName
+            homeTeamName.text = match.homeTeam.name
+            awayTeamName.text = match.awayTeam.name
             if (match.status == Status.FINISHED) {
-                goalsHomeTeam.text = match.result.goalsHomeTeam.toString()
-                goalsAwayTeam.text = match.result.goalsAwayTeam.toString()
+                goalsHomeTeam.text = match.score.result.goalsHomeTeam.toString()
+                goalsAwayTeam.text = match.score.result.goalsAwayTeam.toString()
             } else {
                 goalsHomeTeam.text = ""
                 goalsAwayTeam.text = ""

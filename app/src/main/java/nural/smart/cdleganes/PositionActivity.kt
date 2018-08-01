@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
+import nural.smart.cdleganes.position.Standings
 import nural.smart.cdleganes.position.adapters.PositionListAdapter
 import nural.smart.cdleganes.position.commands.RequestPositionCommand
 import org.jetbrains.anko.doAsync
@@ -53,7 +54,8 @@ class PositionFragment : Fragment(), SwipeRefreshLayout.OnRefreshListener {
         doAsync {
             val result = RequestPositionCommand().execute()
             uiThread {
-                positionList.adapter = PositionListAdapter(result)
+                val table = result.standings.first { it.type == "TOTAL" }
+                positionList.adapter = PositionListAdapter(table)
                 progressBar.visibility = View.GONE
                 swipeView.isRefreshing = false
             }

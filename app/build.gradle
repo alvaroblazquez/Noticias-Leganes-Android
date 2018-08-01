@@ -24,13 +24,13 @@ repositories {
 
 android {
     compileSdkVersion 25
-    buildToolsVersion '26.0.2'
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "nuralsmart.noticias.leganes"
         minSdkVersion 17
         targetSdkVersion 25
-        versionCode 6
-        versionName "2.0"
+        versionCode 7
+        versionName "2.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
